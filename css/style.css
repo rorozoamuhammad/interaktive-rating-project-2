@@ -1,0 +1,223 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(216, 12%, 8%);
+}
+
+.icon {
+    background-color: hsl(0, 0%, 33%);
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 27px;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.container {
+    width: 20%;
+    margin: auto;
+    background-color: hsl(213, 19%, 18%);
+    padding: 30px;
+    position: relative;
+    margin-top: 180px;
+    border-radius: 20px;
+}
+
+.container .title {
+    color: hsl(0, 0%, 100%);
+}
+
+.text {
+    color: hsl(216, 12%, 54%);
+    font-size: 15px;
+}
+
+.angka {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: hsl(0, 0%, 100%);
+}
+
+.satu {
+    background-color: hsl(0, 0%, 33%);
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 25px;
+    padding: 10px;
+    transition: .5s;
+}
+
+.satu:hover {
+    background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+.one {
+    background-color: hsl(216, 12%, 54%);
+}
+
+.dua {
+    background-color: hsl(0, 0%, 33%);
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 25px;
+    padding: 10px;
+    transition: .5s;
+}
+
+.dua:hover {
+    background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+.two {
+    background-color: hsl(216, 12%, 54%);
+}
+
+.tiga {
+    background-color: hsl(0, 0%, 33%);
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 25px;
+    padding: 10px;
+    transition: .5s;
+}
+
+.tiga:hover {
+    background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+.three {
+    background-color: hsl(216, 12%, 54%);
+}
+
+.empat {
+    background-color: hsl(0, 0%, 33%);
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 25px;
+    padding: 10px;
+    transition: .5s;
+}
+
+.empat:hover {
+    background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+.four {
+    background-color: hsl(216, 12%, 54%);
+}
+
+.lima {
+    background-color: hsl(0, 0%, 33%);
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 25px;
+    padding: 10px;
+    transition: .5s;
+}
+
+.lima:hover {
+    background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+.five {
+    background-color: hsl(216, 12%, 54%);
+}
+
+button {
+    width: 100%;
+    padding: 8px;
+    border-radius: 25px;
+    background-color: hsl(25, 97%, 53%);
+    border: 0;
+    border: 1px solid hsl(25, 97%, 53%);
+    transition: .5s;
+    color: hsl(0, 0%, 100%);
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: hsl(0, 0%, 100%);
+    border: 0;
+    border: 1px solid hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+/* thank you state */
+
+.container2 {
+    width: 25%;
+    margin: auto;
+    background-color: hsl(213, 19%, 18%);
+    padding: 30px;
+    position: relative;
+    margin-top: 130px;
+    border-radius: 20px;
+}
+
+.icon2 {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.pilihan {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    font-size: 1.1em;
+    background-color: hsla(0, 5%, 28%, 0.616);
+    border-radius: 25px;
+}
+
+.pilihan p {
+    padding: 3px;
+    color: hsl(25, 97%, 53%);
+}
+
+.container2 .title {
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+}
+
+.deskripsi {
+    color: hsl(216, 12%, 54%);
+    font-size: 18px;
+    text-align: center;
+}
+
+.attribution {
+    font-size: 0.8em;
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 50%;
+        margin-top: 150px;
+    }
+
+    .container2 {
+        width: 50%;
+        margin-top: 100px;
+    }
+}
